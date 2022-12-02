@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:);
+@media only screen and (min-width: 370px)  {
+    body {
+    background-color:hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    }
+   }
+   @media only screen and (min-width: 1440px)  {
+    body {
+    background-color:hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position:top ;
+    background-attachment: fixed;
+    }
+   }
+    *{
+        font-family: 'Red Hat Display', sans-serif ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+    *:not(.second){
+        text-align: center;
+
+    }
+   .first{
+    background-image: url(./images/illustration-hero.svg);
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 5%;
+    width:auto;
+    height:auto;
+    margin: 0px;
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .imgone{
+    background-position: top;
+    background-size:contain;
+    background-repeat: no-repeat;
+   }
+
+   .one{
+    font-size:xx-large;
+    color: hsl(223, 47%, 23%);
+    padding-top: 200px;
+    margin-bottom: 15px;
+    font-weight:900 ;
+   }
+   .two{
+    text-align: center;
+    font-size: larger;
+    width: 330px;
+    margin: 0px;
+    line-height: 30px;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 25px;
+   }
+   
+   .total{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   }
+   .four{
+    font-weight:bolder;
+    font-size: 700;
+    
+   }
+   .five{
+    font-weight: 300;
+    color: hsl(224, 23%, 55%);
+    font-weight: 300;
+    font-size: 16px;
+   }
+
+    .six{
+    text-decoration: underline;  
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    }
+
+   .second{
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-size:auto;
+    border-radius: 10%;
+    width:300px;
+    height:max-content;
+    margin: 15px;
+    padding:20px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+   .second > img{
+    visibility: hidden;
+    height: min-content;
+    width: min-content;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+   }
+   .total{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+   }
+   button{
+    background-color: hsl(245, 75%, 52%)    ;
+    color: white;
+    width:300px;
+    height:50px;
+    border-radius: 10%;
+    margin: 15px;
+    box-shadow:10px 15px 15px hsl(245, 100%, 94%);
+    font-size: larger;
+    font-weight: 300;
+    border: none;
+    margin-bottom: 5px;
+   }
+   .three{
+    font-size: large;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+}
+   .attribution{
+    visibility: hidden;
+   }
